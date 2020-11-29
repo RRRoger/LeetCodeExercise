@@ -26,6 +26,10 @@ class Solution(object):
                 nums1[p] =  nums1[p1]
                 p1 -= 1
             p -= 1
+
+            # print("p", p)
+            # print("p1", p1)
+            # print("p2", p2)
         
         # add missing elements from nums2
         nums1[:p2 + 1] = nums2[:p2 + 1]
@@ -37,7 +41,7 @@ class Solution(object):
 
 if "__main__" == __name__:
     solution = Solution()
-    nums1 = [2,5,6,7,11,12,13,15,0,0,0]
+    nums1 = [1,3,6,7,10,12,14,17,0,0,0,0,0,0,0,0]
     nums2 = [2,5,6,7,11,12,13,15]
     m = 8
     n = 8
