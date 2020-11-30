@@ -9,23 +9,26 @@ class Solution:
             return False
         
         _map = {
-            ")": "(",
             "]": "[",
+            ")": "(",
             "}": "{",
         }
-        stack = list()
+
+        stack = []
+
         for ch in s:
             if ch in _map:
-                if not stack or stack[-1] != _map[ch]:
+                if not stack:
                     return False
-                stack.pop()
+                elif stack[-1] != _map[ch]:
+                    # print(stack)
+                    return False
+                else:
+                    stack.pop()
             else:
                 stack.append(ch)
-
-            print(stack)
-
-        print("=" * 100)
         return not stack
+
 
 
 
@@ -39,5 +42,10 @@ if "__main__" == __name__:
     # print(solution.isValid(input1))
     # print(solution.isValid(input2))
     # print(solution.isValid(input3))
-    print(solution.isValid(input4))
+    # print(solution.isValid(input4))
+
+    x = "{[]}{[]}{[][}{][]}{[]}"
+    print(solution.isValid(x))
+
+
     
