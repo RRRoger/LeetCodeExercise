@@ -1,4 +1,8 @@
+# # -*- coding: utf-8 -*-
+
 # Definition for singly-linked list.
+
+# 使用迭代的方案
 
 def generate_node(_list):
     if not _list:
@@ -27,23 +31,27 @@ class ListNode(object):
         return delimeter.join(map(str, res))
 
 
-"""
-Stupid Problem;
-"""
-
 class Solution(object):
-    def deleteNode(self, node):
+    def reverseList(self, head):
         """
-        :type node: ListNode
-        :rtype: void Do not return anything, modify node in-place instead.
+        :type head: ListNode
+        :rtype: ListNode
         """
-        node.val = node.next.val
-        node.next = node.next.next
+        if not head: return None
+        r = ListNode(head.val)
+        while head.next:
+            r = ListNode(head.next.val, r)
+            head = head.next
+        return r
+            
+
 
 
 if __name__ == '__main__':
     solution = Solution()
     r = generate_node([4,5,1,9])
     print(r)
-    res = solution.deleteNode(r)
+    res = solution.reverseList(r)
     print(r)
+
+
