@@ -37,4 +37,5 @@
 - [Kevin Kelly 给年轻人的99条建议 2](https://www.v2ex.com/t/774144)
 - [Flask 2.0 版本发布](https://greyli.com/flask2/)
 - [PostgreSQL Limits](https://www.postgresql.org/docs/13/limits.html)
+- [数据结构可视化](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 

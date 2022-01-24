@@ -7,8 +7,11 @@
         "id": "df06783a51f4f430",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "index.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -57,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e7f400ad01c29136",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,27 +124,37 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "index.md"
+              }
+            }
+          },
+          {
+            "id": "dd0b04923d5c51c4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "df06783a51f4f430",
   "lastOpenFiles": [
-    "categories/favourites.md",
     "index.md",
+    "static/pdf/UnderstandingGIL.pdf",
+    "notebook/weapp/images/zh_CN.png",
+    "categories/favourites.md",
     "README.md",
     "notebook/trivial/英文缩写解释.md",
     "kanban.md",
     "notebook/python/multipress_tips.jpg",
     "notebook/linux/grep命令使用.md",
-    "notebook/python/Python并发编程.md",
-    "static/pdf/UnderstandingGIL.pdf",
-    "notebook/database/postgres/explain.md"
+    "notebook/python/Python并发编程.md"
   ]
 }

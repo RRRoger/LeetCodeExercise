@@ -143,6 +143,7 @@
 ## Java
 
 - [若依框架整理](notebook/java/ruoyi.md)
+- [Guava使用笔记](notebook/java/Guava使用笔记.md)
 
 ## [小程序](categories/weapp.md)
 
