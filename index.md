@@ -123,6 +123,7 @@
 - [Rsync 的一些用法](notebook/linux/Rsync的一些用法.md)
 - [ubuntu搭建内网穿透服务Ngrok](notebook/linux/ubuntu搭建内网穿透服务Ngrok.md)
 - [grep命令使用](notebook/linux/grep命令使用.md)
+- [FRP内网穿透](notebook/linux/FRP内网穿透.md)
 
 ## Odoo
 
